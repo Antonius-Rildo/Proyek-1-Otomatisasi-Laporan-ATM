@@ -71,4 +71,4 @@ Ini adalah "jembatan" saya menuju **Proyek 2: "Mesin Cerdas" (Multi-Output NLP C
 
 Terima kasih telah meninjau proyek saya. Mari terhubung!
 
-* **LinkedIn:** `[GANTI DENGAN LINK PROFIL LINKEDIN ANDA]`
+* **LinkedIn:** `https://www.linkedin.com/in/antonius-rildo-232b9411a/`
