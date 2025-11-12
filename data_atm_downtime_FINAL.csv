@@ -1,0 +1,102 @@
+No,Id,Lokasi,Tanggal,No tiket,Komunikasi,Jam operasional,City,Provinsi,Durasi,Start time,End time,Penyebab,Real problem,Problem,Kategori,Responsibilty,Penanggung jawab
+1,1646,Bintaro Sektor 9,12-Nov-25,19204404,Sanatel,00:00 - 23:59,Jakarta,DKI Jakarta,01:30,11/12/2025 02:00 AM,11/12/2025 03:30 AM,mesin online sendiri,,"Atm offline",,,SIMPON
+2,1647,Plaza Senayan,12-Nov-25,19204405,Telkom,00:00 - 23:59,Jakarta,DKI Jakarta,00:45,11/12/2025 02:15 AM,11/12/2025 03:00 AM,restart mesin atm ok,,"Atm offline",,,ADABUS
+3,1648,Ciputra World,12-Nov-25,19204406,Indosat,08:00 - 20:00,Surabaya,Jawa Timur,05:00,11/12/2025 03:00 AM,11/12/2025 08:00 AM,Layar ATM dirusak,,"Card reader",,,KEJAR
+4,1649,Tunjungan Plaza,12-Nov-25,19204407,Sanatel,00:00 - 23:59,Surabaya,Jawa Timur,02:10,11/12/2025 03:30 AM,11/12/2025 05:40 AM,open tiket ke tim jaringan,,"Atm offline",,,KEMON
+5,1650,Paris Van Java,12-Nov-25,19204408,Telkom,00:00 - 23:59,Bandung,Jawa Barat,12:00,11/12/2025 04:00 AM,11/12/2025 04:00 PM,Listrik padam dari PLN,,"Atm offline",,,SIMPON
+6,1651,Summarecon Mall,12-Nov-25,19204409,Indosat,08:00 - 20:00,Jakarta,DKI Jakarta,03:00,11/12/2025 04:30 AM,11/12/2025 07:30 AM,Uang nasabah nyangkut di dispenser,,"Dispenser",,,ADABUS
+7,1652,Stasiun Gambir,12-Nov-25,19204410,Sanatel,00:00 - 23:59,Jakarta,DKI Jakarta,01:15,11/12/2025 05:00 AM,11/12/2025 06:15 AM,kartu tersangkut,,"Card reader",,,KEJAR
+8,1653,Bandara Soetta,12-Nov-25,19204411,Telkom,00:00 - 23:59,Jakarta,DKI Jakarta,00:30,11/12/2025 05:15 AM,11/12/2025 05:45 AM,Mesin OK setelah di reset,,"Atm offline",,,SIMPON
+9,1654,Malioboro,12-Nov-25,19204412,Indosat,00:00 - 23:59,Yogyakarta,DIY,04:00,11/12/2025 06:00 AM,11/12/2025 10:00 AM,open tiket ke tim mesin (SLM),,"Cash handler",,,KEMON
+10,1655,Blok M Plaza,12-Nov-25,19204413,Sanatel,08:00 - 20:00,Jakarta,DKI Jakarta,02:00,11/12/2025 06:30 AM,11/12/2025 08:30 AM,kaset 1 nyangkut,,"Dispenser",,,ADABUS
+11,1656,Gubeng Station,12-Nov-25,19204414,Telkom,00:00 - 23:59,Surabaya,Jawa Timur,12:00,11/12/2025 07:00 AM,11/12/2025 07:00 PM,Mati listrik total,,"Atm offline",,,SIMPON
+12,1657,Dago Plaza,12-Nov-25,19204415,Indosat,00:00 - 23:59,Bandung,Jawa Barat,01:45,11/12/2025 07:15 AM,11/12/2025 09:00 AM,Pinpad error, butuh replace,,"Cash handler",,,KEJAR
+13,1658,Tugu Jogja,12-Nov-25,19204416,Sanatel,08:00 - 20:00,Yogyakarta,DIY,00:20,11/12/2025 07:30 AM,11/12/2025 07:50 AM,modem di-restart, normal,,"Atm offline",,,SIMPON
+14,1659,Thamrin City,12-Nov-25,19204417,Telkom,00:00 - 23:59,Jakarta,DKI Jakarta,03:30,11/12/2025 08:00 AM,11/12/2025 11:30 AM,ATM dicoret-coret,,"Atm offline",,,ADABUS
+1L,1660,Kelapa Gading,12-Nov-25,19204418,Indosat,00:00 - 23:59,Jakarta,DKI Jakarta,01:00,11/12/2025 08:15 AM,11/12/2025 09:15 AM,Listrik gedung padam,,"Atm offline",,,SIMPON
+16,1661,Wonokromo,12-Nov-25,19204419,Sanatel,00:00 - 23:59,Surabaya,Jawa Timur,02:30,11/12/2025 08:30 AM,11/12/2025 11:00 AM,open tiket adabus,,"Dispenser",,,KEMON
+17,1662,Setiabudi,12-Nov-25,19204420,Telkom,08:00 - 20:00,Bandung,Jawa Barat,00:55,11/12/2025 09:00 AM,11/12/2025 09:55 AM,Uang tidak keluar,,"Cash handler",,,KEJAR
+18,1663,Ambarukmo Plaza,12-Nov-25,19204421,Indosat,00:00 - 23:59,Yogyakarta,DIY,01:30,11/12/2025 09:15 AM,11/12/2025 10:45 AM,Komunikasi putus, updown jarkom,,"Atm offline",,,SIMPON
+19,1664,Fatmawati,12-Nov-25,19204422,Sanatel,00:00 - 23:59,Jakarta,DKI Jakarta,02:15,11/12/2025 09:30 AM,11/12/2025 11:45 AM,restart mesin atm ok,,"Atm offline",,,ADABUS
+20,1665,Cilandak,12-Nov-25,19204423,Telkom,08:00 - 20:00,Jakarta,DKI Jakarta,12:00,11/12/2025 10:00 AM,11/12/2025 10:00 PM,Listrik mati,,"Atm offline",,,SIMPON
+21,1666,Kenjeran,12-Nov-25,19204424,Indosat,00:00 - 23:59,Surabaya,Jawa Timur,01:00,11/12/2025 10:15 AM,11/12/2025 11:15 AM,Kartu tidak bisa masuk, cr kotor,,"Card reader",,,KEJAR
+22,1667,Lembang,12-Nov-25,19204425,Sanatel,00:00 - 23:59,Bandung,Jawa Barat,03:00,11/12/2025 10:30 AM,11/12/2025 01:30 PM,open tiket vendor,,"Atm offline",,,KEMON
+23,1668,Godean,12-Nov-25,19204426,Telkom,08:00 - 20:00,Yogyakarta,DIY,00:45,11/12/2025 11:00 AM,11/12/2025 11:45 AM,Mesin hang, rest all device ok,,"Atm offline",,,SIMPON
+24,1669,Pondok Indah,12-Nov-25,19204427,Indosat,00:00 - 23:59,Jakarta,DKI Jakarta,02:30,11/12/2025 11:15 AM,11/12/2025 01:45 PM,Layar dipecah, vandalisme,,"Atm offline",,,ADABUS
+25,1670,SCBD,12-Nov-25,19204428,Sanatel,00:00 - 23:59,Jakarta,DKI Jakarta,12:00,11/12/2025 12:00 PM,11/13/2025 12:00 AM,PLN Padam,,"Atm offline",,,SIMPON
+26,1671,Rungkut,12-Nov-25,19204429,Telkom,08:00 - 20:00,Surabaya,Jawa Timur,01:20,11/12/2025 12:30 PM,11/12/2025 01:50 PM,Kertas habis, cleaning printer,,"Dispenser",,,KEJAR
+27,1672,Pasteur,12-Nov-25,19204430,Indosat,00:00 - 23:59,Bandung,Jawa Barat,00:35,11/12/2025 12:45 PM,11/12/2025 01:20 PM,restart mesin atm ok,,"Atm offline",,,SIMPON
+28,1673,Prambanan,12-Nov-25,19204431,Sanatel,00:00 - 23:59,Yogyakarta,DIY,03:00,11/12/2025 01:00 PM,11/12/2025 04:00 PM,open tiket kejar,,"Card reader",,,KEMON
+29,1674,Kuningan,12-Nov-25,19204432,Telkom,00:00 - 23:59,Jakarta,DKI Jakarta,02:00,11/12/2025 01:30 PM,11/12/2025 03:30 PM,Uang palsu,,"Cash handler",,,ADABUS
+30,1675,Senayan,12-Nov-25,19204433,Indosat,08:00 - 20:00,Jakarta,DKI Jakarta,12:00,11/12/2025 02:00 PM,11/13/2025 02:00 AM,Mati lampu di ruko,,"Atm offline",,,SIMPON
+31,1676,Tunjungan,12-Nov-25,19204434,Sanatel,00:00 - 23:59,Surabaya,Jawa Timur,01:30,11/12/2025 02:15 PM,11/12/2025 03:45 PM,ATM offline, normal sendiri,,"Atm offline",,,KEJAR
+32,1677,Cibiru,12-Nov-25,19204435,Telkom,00:00 - 23:59,Bandung,Jawa Barat,00:45,11/12/2025 02:30 PM,11/12/2025 03:15 PM,restart mesin,,"Atm offline",,,SIMPON
+33,1678,Kaliurang,12-Nov-25,19204436,Indosat,08:00 - 20:00,Yogyakarta,DIY,04:00,11/12/2025 03:00 PM,11/12/2025 07:00 PM,ATM dirusak massa. vandalisme,,"Cash handler",,,ADABUS
+34,1679,Menteng,12-Nov-25,19204437,Sanatel,00:00 - 23:59,Jakarta,DKI Jakarta,02:00,11/12/2025 03:30 PM,11/12/2025 05:30 PM,open tiket simpon,,"Atm offline",,,KEMON
+35,1680,Grogol,12-Nov-25,19204438,Telkom,00:00 - 23:59,Jakarta,DKI Jakarta,12:00,11/12/2025 04:00 PM,11/13/2025 04:00 AM,Pemadaman listrik,,"Atm offline",,,SIMPON
+36,1681,Ngagel,12-Nov-25,19204439,Indosat,08:00 - 20:00,Surabaya,Jawa Timur,01:15,11/12/2025 04:30 PM,11/12/2025 05:45 PM,Kartu nyangkut,,"Card reader",,,KEJAR
+37,1682,Kopo,12-Nov-25,19204440,Sanatel,00:00 - 23:59,Bandung,Jawa Barat,00:30,11/12/2025 05:00 PM,11/12/2025 05:30 PM,restart mesin atm ok,,"Atm offline",,,SIMPON
+38,1683,Sleman,12-Nov-25,19204441,Telkom,00:00 - 23:59,Yogyakarta,DIY,02:00,11/12/2025 05:15 PM,11/12/2025 07:15 PM,open tiket,,"Dispenser",,,KEMON
+39,1684,Tebet,12-Nov-25,19204442,Indosat,08:00 - 20:00,Jakarta,DKI Jakarta,01:45,11/12/2025 05:30 PM,11/12/2025 07:15 PM,Uang keluar tidak sesuai,,"Cash handler",,,ADABUS
+40,1685,Mangga Dua,12-Nov-25,19204443,Sanatel,00:00 - 23:59,Jakarta,DKI Jakarta,12:00,11/12/2025 06:00 PM,11/13/2025 06:00 AM,Listrik padam,,"Atm offline",,,SIMPON
+41,1686,Jemursari,12-Nov-25,19204444,Telkom,00:00 - 23:59,Surabaya,Jawa Timur,01:00,11/12/2025 06:30 PM,11/12/2025 07:30 PM,restart mesin atm ok,,"Atm offline",,,KEJAR
+42,1687,Buah Batu,12-Nov-25,19204445,Indosat,08:00 - 20:00,Bandung,Jawa Barat,02:30,11/12/2025 07:00 PM,11/12/2025 09:30 PM,open tiket adabus,,"Cash handler",,,KEMON
+43,1688,Bantul,12-Nov-25,19204446,Sanatel,00:00 - 23:59,Yogyakarta,DIY,00:40,11/12/2025 07:15 PM,11/12/2025 07:55 PM,Layar blank, rest all device,,"Atm offline",,,SIMPON
+44,1689,Blok A,12-Nov-25,19204447,Telkom,00:00 - 23:59,Jakarta,DKI Jakarta,03:00,11/12/2025 08:00 PM,11/12/2025 11:00 PM,Mesin dibobol, vandalisme,,"Cash handler",,,ADABUS
+45,1690,Ciputra,12-Nov-25,19204448,Indosat,00:00 - 23:59,Jakarta,DKI Jakarta,12:00,11/12/2025 08:30 PM,11/13/2025 08:30 AM,Mati listrik,,"Atm offline",,,SIMPON
+46,1691,Ahmad Yani,12-Nov-25,19204449,Sanatel,08:00 - 20:00,Surabaya,Jawa Timur,01:30,11/12/2025 09:00 PM,11/12/2025 10:30 PM,Kartu tidak terbaca,,"Card reader",,,KEJAR
+47,1692,Antapani,12-Nov-25,19204450,Telkom,00:00 - 23:59,Bandung,Jawa Barat,00:30,11/12/2025 09:15 PM,11/12/2025 09:45 PM,restart mesin atm ok,,"Atm offline",,,SIMPON
+48,1693,Gejayan,12-Nov-25,19204451,Indosat,00:00 - 23:59,Yogyakarta,DIY,02:00,11/12/2025 10:00 PM,11/13/2025 12:00 AM,open tiket,,"Atm offline",,,KEMON
+49,1694,Pancoran,12-Nov-25,19204452,Sanatel,08:00 - 20:00,Jakarta,DKI Jakarta,01:00,11/12/2025 10:30 PM,11/12/2025 11:30 PM,Uang tidak bisa ditarik,,"Cash handler",,,ADABUS
+50,1695,Pluit,12-Nov-25,19204453,Telkom,00:00 - 23:59,Jakarta,DKI Jakarta,12:00,11/12/2025 11:00 PM,11/13/2025 11:00 AM,Listrik ruko mati,,"Atm offline",,,SIMPON
+51,1696,Basuki Rahmat,12-Nov-25,19204454,Indosat,00:00 - 23:59,Surabaya,Jawa Timur,02:00,11/12/2025 11:30 PM,11/13/2025 01:30 AM,restart mesin,,"Atm offline",,,KEJAR
+52,1697,Cimahi,12-Nov-25,19204455,Sanatel,08:00 - 20:00,Bandung,Jawa Barat,03:00,11/13/2025 12:00 AM,11/13/2025 03:00 AM,open tiket kemon,,"Dispenser",,,KEMON
+53,1698,Maguwoharjo,12-Nov-25,19204456,Telkom,00:00 - 23:59,Yogyakarta,DIY,00:45,11/13/2025 12:15 AM,11/13/2025 01:00 AM,ATM pulih sendiri, jarkom,,"Atm offline",,,SIMPON
+54,1699,Radio Dalam,12-Nov-25,19204457,Indosat,00:00 - 23:59,Jakarta,DKI Jakarta,02:00,11/13/2025 01:00 AM,11/13/2025 03:00 AM,Mesin dibakar, vandalisme,,"Atm offline",,,ADABUS
+55,1700,Bintaro Sektor 7,13-Nov-25,19204458,Sanatel,00:00 - 23:59,Jakarta,DKI Jakarta,12:00,11/13/2025 01:30 AM,11/13/2025 01:30 PM,Pemadaman PLN,,"Atm offline",,,SIMPON
+56,1701,Manyar,13-Nov-25,19204459,Telkom,08:00 - 20:00,Surabaya,Jawa Timur,01:15,11/13/2025 02:00 AM,11/13/2025 03:15 AM,Kartu tidak bisa keluar,,"Card reader",,,KEJAR
+57,1702,Gedebage,13-Nov-25,19204460,Indosat,00:00 - 23:59,Bandung,Jawa Barat,00:30,11/13/2025 02:15 AM,11/13/2025 02:45 AM,restart mesin atm ok,,"Atm offline",,,SIMPON
+58,1703,Seturan,13-Nov-25,19204461,Sanatel,00:00 - 23:59,Yogyakarta,DIY,03:00,11/13/2025 03:00 AM,11/13/2025 06:00 AM,open tiket,,"Atm offline",,,KEMON
+59,1704,Cawang,13-Nov-25,19204462,Telkom,08:00 - 20:00,Jakarta,DKI Jakarta,02:00,11/13/2025 03:30 AM,11/13/2025 05:30 AM,Transaksi gagal uang tidak keluar,,"Cash handler",,,ADABUS
+60,1705,Kemang,13-Nov-25,19204463,Indosat,00:00 - 23:59,Jakarta,DKI Jakarta,12:00,11/13/2025 04:00 AM,11/13/2025 04:00 PM,Listrik padam total,,"Atm offline",,,SIMPON
+61,1706,Darmo,13-Nov-25,19204464,Sanatel,00:00 - 23:59,Surabaya,Jawa Timur,01:00,11/13/2025 04:30 AM,11/13/2025 05:30 AM,restart mesin atm ok,,"Atm offline",,,KEJAR
+62,1707,Ujung Berung,13-Nov-25,19204465,Telkom,08:00 - 20:00,Bandung,Jawa Barat,02:30,11/13/2025 05:00 AM,11/13/2025 07:30 AM,open tiket,,"Cash handler",,,KEMON
+63,1708,Parangtritis,13-Nov-25,19204466,Indosat,00:00 - 23:59,Yogyakarta,DIY,00:50,11/13/2025 05:15 AM,11/13/2025 06:05 AM,Mesin normal kembali, sel,,"Atm offline",,,SIMPON
+64,1709,Cipete,13-Nov-25,19204467,Sanatel,00:00 - 23:59,Jakarta,DKI Jakarta,03:00,11/13/2025 06:00 AM,11/13/2025 09:00 AM,Mesin dirusak, vandalisme,,"Dispenser",,,ADABUS
+65,1710,Sunter,13-Nov-25,19204468,Telkom,08:00 - 20:00,Jakarta,DKI Jakarta,12:00,11/13/2025 06:30 AM,11/13/2025 06:30 PM,Padam listrik,,"Atm offline",,,SIMPON
+66,1711,Kertajaya,13-Nov-25,19204469,Indosat,00:00 - 23:59,Surabaya,Jawa Timur,01:30,11/13/2025 07:00 AM,11/13/2025 08:30 AM,Kartu tidak terdeteksi, card reader,,"Card reader",,,KEJAR
+67,1712,Soekarno Hatta,13-Nov-25,19204470,Sanatel,00:00 - 23:59,Bandung,Jawa Barat,00:30,11/13/2025 07:15 AM,11/13/2025 07:45 AM,restart mesin atm ok,,"Atm offline",,,SIMPON
+68,1713,Jalan Solo,13-Nov-25,19204471,Telkom,08:00 - 20:00,Yogyakarta,DIY,02:00,11/13/2025 08:00 AM,11/13/2025 10:00 AM,open tiket tim mesin,,"Atm offline",,,KEMON
+69,1714,Cideng,13-Nov-25,19204472,Indosat,00:00 - 23:59,Jakarta,DKI Jakarta,01:00,11/13/2025 08:30 AM,11/13/2025 09:30 AM,Uang tidak terhitung,,"Cash handler",,,ADABUS
+70,1715,BSD,13-Nov-25,19204473,Sanatel,00:00 - 23:59,Jakarta,DKI Jakarta,12:00,11/13/2025 09:00 AM,11/13/2025 09:00 PM,Listrik mati,,"Atm offline",,,SIMPON
+71,1716,Wiyung,13-Nov-25,19204474,Telkom,08:00 - 20:00,Surabaya,Jawa Timur,02:00,11/13/2025 09:30 AM,11/13/2025 11:30 AM,cek mesin, ok,,"Atm offline",,,KEJAR
+72,1717,Cicaheum,13-Nov-25,19204475,Indosat,00:00 - 23:59,Bandung,Jawa Barat,03:00,11/13/2025 10:00 AM,11/13/2025 01:00 PM,open tiket,,"Card reader",,,KEMON
+73,1718,Pakualaman,13-Nov-25,19204476,Sanatel,00:00 - 23:59,Yogyakarta,DIY,00:45,11/13/2025 10:15 AM,11/13/2025 11:00 AM,Jaringan offline, jarkom,,"Atm offline",,,SIMPON
+74,1719,Dukuh Atas,13-Nov-25,19204477,Telkom,00:00 - 23:59,Jakarta,DKI Jakarta,02:00,11/13/2025 11:00 AM,11/13/2025 01:00 PM,Pintu dirusak, vandalisme,,"Card reader",,,ADABUS
+75,1720,Tebet Raya,13-Nov-25,19204478,Indosat,08:00 - 20:00,Jakarta,DKI Jakarta,12:00,11/13/2025 11:30 AM,11/13/2025 11:30 PM,Padam listrik dilokasi,,"Atm offline",,,SIMPON
+76,1721,Grogol Petamburan,14-Nov-25,19204479,Sanatel,00:00 - 23:59,Jakarta,DKI Jakarta,01:15,11/14/2025 12:00 PM,11/14/2025 01:15 PM,Kertas struk nyangkut,,"Dispenser",,,KEJAR
+77,1722,Rungkut Industri,14-Nov-25,19204480,Telkom,00:00 - 23:59,Surabaya,Jawa Timur,00:30,11/14/2025 12:15 PM,11/14/2025 12:45 PM,restart mesin atm ok,,"Atm offline",,,SIMPON
+78,1723,Cibaduyut,14-Nov-25,19204481,Indosat,08:00 - 20:00,Bandung,Jawa Barat,03:00,11/14/2025 01:00 PM,11/14/2025 04:00 PM,open tiket,,"Atm offline",,,KEMON
+79,1724,Malioboro Mall,14-Nov-25,19204482,Sanatel,00:00 - 23:59,Yogyakarta,DIY,02:00,11/14/2025 01:30 PM,11/14/2025 03:30 PM,Uang tidak terdeteksi,,"Cash handler",,,ADABUS
+80,1725,Jatinegara,14-Nov-25,19204483,Telkom,00:00 - 23:59,Jakarta,DKI Jakarta,12:00,11/14/2025 02:00 PM,11/15/2025 02:00 AM,Listrik gedung mati,,"Atm offline",,,SIMPON
+81,1726,Cengkareng,14-Nov-25,19204484,Indosat,00:00 - 23:59,Jakarta,DKI Jakarta,01:30,11/14/2025 02:30 PM,11/14/2025 04:00 PM,restart modem,,"Atm offline",,,KEJAR
+82,1727,Pakuwon Mall,14-Nov-25,19204485,Sanatel,08:00 - 20:00,Surabaya,Jawa Timur,02:30,11/14/2025 03:00 PM,11/14/2025 05:30 PM,open tiket tim kejar,,"Card reader",,,KEMON
+83,1728,Kiara Condong,14-Nov-25,19204486,Telkom,00:00 - 23:59,Bandung,Jawa Barat,00:45,11/14/2025 03:15 PM,11/14/2025 04:00 PM,Normal setelah restart,,"Atm offline",,,SIMPON
+84,1729,Keraton,14-Nov-25,19204487,Indosat,00:00 - 23:59,Yogyakarta,DIY,03:00,11/14/2025 04:00 PM,11/14/2025 07:00 PM,Mesin ATM dibobol, vandalisme,,"Atm offline",,,ADABUS
+85,1730,Pasar Minggu,14-Nov-25,19204488,Sanatel,08:00 - 20:00,Jakarta,DKI Jakarta,12:00,11/14/2025 04:30 PM,11/15/2025 04:30 AM,Padam listrik PLN,,"Atm offline",,,SIMPON
+86,1731,Tanah Abang,14-Nov-25,19204489,Telkom,00:00 - 23:59,Jakarta,DKI Jakarta,01:15,11/14/2025 05:00 PM,11/14/2025 06:15 PM,Uang nyangkut di dispenser,,"Dispenser",,,KEJAR
+87,1732,MERR,14-Nov-25,19204490,Indosat,00:00 - 23:59,Surabaya,Jawa Timur,00:30,11/14/2025 05:15 PM,11/14/2025 05:45 PM,restart mesin atm ok,,"Atm offline",,,SIMPON
+88,1733,Soreang,14-Nov-25,19204491,Sanatel,08:00 - 20:00,Bandung,Jawa Barat,02:00,11/14/2025 06:00 PM,11/14/2025 08:00 PM,open tiket tim adabus,,"Dispenser",,,KEMON
+89,1734,Bantul Kota,14-Nov-25,19204492,Telkom,00:00 - 23:59,Yogyakarta,DIY,01:00,11/14/2025 06:30 PM,11/14/2025 07:30 PM,Uang tidak terhitung akurat,,"Cash handler",,,ADABUS
+90,1735,Gajah Mada,14-Nov-25,19204493,Indosat,00:00 - 23:59,Jakarta,DKI Jakarta,12:00,11/14/2025 07:00 PM,11/15/2025 07:00 AM,Listrik padam,,"Atm offline",,,SIMPON
+91,1736,Pondok Candra,14-Nov-25,19204494,Sanatel,08:00 - 20:00,Surabaya,Jawa Timur,01:30,11/14/2025 07:30 PM,11/14/2025 09:00 PM,restart mesin atm ok,,"Atm offline",,,KEJAR
+92,1737,Padalarang,14-Nov-25,1Music,19204495,Telkom,00:00 - 23:59,Bandung,Jawa Barat,03:00,11/14/2025 08:00 PM,11/14/2025 11:00 PM,open tiket,,"Cash handler",,,KEMON
+93,1738,UGM,14-Nov-25,19204496,Indosat,00:00 - 23:59,Yogyakarta,DIY,00:45,11/14/2025 08:15 PM,11/14/2025 09:00 PM,Koneksi down, jarkom,,"Atm offline",,,SIMPON
+94,1739,Hayam Wuruk,14-Nov-25,19204497,Sanatel,00:00 - 23:59,Jakarta,DKI Jakarta,02:00,11/14/2025 09:00 PM,11/14/2025 11:00 PM,Mesin dicongkel, vandalisme,,"Cash handler",,,ADABUS
+95,1740,Cipete Raya,14-Nov-25,19204498,Telkom,08:00 - 20:00,Jakarta,DKI Jakarta,12:00,11/14/2025 10:00 PM,11/15/2025 10:00 AM,Padam listrik PLN,,"Atm offline",,,SIMPON
+96,1741,Royal Plaza,14-Nov-25,19204499,Indosat,00:00 - 23:59,Surabaya,Jawa Timur,01:15,11/14/2025 10:30 PM,11/14/2025 11:45 PM,Kartu tidak bisa dibaca,,"Card reader",,,KEJAR
+97,1742,ITB,14-Nov-25,19204500,Sanatel,00:00 - 23:59,Bandung,Jawa Barat,00:30,11/14/2025 11:00 PM,11/14/2025 11:30 PM,restart mesin atm ok,,"Atm offline",,,SIMPON
+98,1743,UNY,14-Nov-25,19204501,Telkom,08:00 - 20:00,Yogyakarta,DIY,03:00,11/14/2025 11:30 PM,11/15/2025 02:30 AM,open tiket,,"Atm offline",,,KEMON
+99,1744,Kota Tua,14-Nov-25,19204502,Indosat,00:00 - 23:59,Jakarta,DKI Jakarta,02:00,11/15/2025 12:00 AM,11/15/2025 02:00 AM,Uang sobek,,"Cash handler",,,ADABUS
+100,1745,Gajah Mada,14-Nov-25,19204503,Sanatel,00:00 - 23:59,Jakarta,DKI Jakarta,12:00,11/15/2025 01:00 AM,11/15/2025 01:00 PM,Padam,,"Atm offline",,,SIMPON
+
