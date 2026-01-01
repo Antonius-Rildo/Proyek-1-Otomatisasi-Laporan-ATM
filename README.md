@@ -1,74 +1,72 @@
-# Proyek-1-Otomatisasi-Laporan-ATM
-Proyek 1: Migrasi "mesin logika" (rule-based engine) V1.0 dari Excel ke Python untuk otomatisasi laporan downtime ATM.
-# Proyek 1: Migrasi "Mesin Logika" V1.0 (Excel ke Python)
+# Project 1: ATM Downtime Report Automation 🏧
+### Migration of Legacy Excel Logic to Python (Rule-Based Engine V1.0)
 
-## 🎯 Ringkasan Proyek
+## 🎯 Project Summary
+This project documents a Data Engineering case study: migrating a complex **Business Logic Engine** from Microsoft Excel to **Python**.
 
-Proyek ini adalah studi kasus Data Engineering dasar yang mendokumentasikan proses migrasi **"mesin logika bisnis" (business logic engine)** yang kompleks dari Microsoft Excel ke Python.
+In my current role at Bank Permata (IT Ops), I handle daily ATM downtime reports. The process involves receiving 100+ raw, unstructured text reports from field teams. Previously, I used a complex 3-step Excel engine (nested `IF/SEARCH/AND/OR` formulas) to process this data.
 
-Di pekerjaan saya saat ini, saya bertanggung jawab untuk membuat laporan *downtime* ATM. Proses ini menerima 100+ laporan harian dari tim lapangan dalam format teks mentah yang tidak terstruktur ("kotor"). Untuk mengatasinya, saya membangun sebuah *engine* 3-pipa (3-step) di Excel menggunakan formula `IF/SEARCH/AND/OR` yang kompleks.
+**The Goal:**
+I translated the Excel engine 1:1 into a Python script (Pandas/NumPy) to prove that Python is faster, more scalable, and easier to maintain than Excel.
 
-Proyek ini adalah **terjemahan 1:1** dari *engine* Excel tersebut ke dalam skrip Python (Pandas/Numpy) yang 100x lebih cepat dan lebih mudah dikelola.
-
-**Tujuan Utama:**
-1.  Membuktikan kelayakan migrasi dari Excel ke Python.
-2.  Mengidentifikasi dan mendokumentasikan kelemahan fundamental dari pendekatan *rule-based* (berbasis aturan) V1.0.
+### 🚀 Key Achievement (Impact)
+* **Efficiency Boost:** Reduced reporting time by **50%** (from **60 minutes** manually to **30 minutes** with this script).
+* **Reliability:** Eliminated human error in manual data entry using VLOOKUP logic.
 
 ---
 
 ## 🛠️ Tools & Data
-
-* **Tools:** Python, Pandas, Numpy, Google Colab
-* **Data:** `data_atm_downtime_FINAL.csv` - 100 baris data dummy "kotor" (realistis) yang mereplika laporan harian tim lapangan. Data ini sengaja dibuat tidak sempurna, mengandung:
-    * Koma yang "nyasar" (mis: `"Listrik, ruko mati"`)
-    * Input yang salah format (mis: "Music")
-    * Berbagai variasi teks (mis: "padam", "mati listrik", "mati lampu")
-
----
-
-## ⚙️ Arsitektur "Mesin" V1.0 (Rule-Based)
-
-*Engine* ini berjalan dalam 3-pipa (3-step) logika, persis seperti di Excel:
-
-1.  **Pipa 1 (Klasifikasi Teks):** Membaca teks mentah `Penyebab` (Kolom M) dan mengklasifikasikannya ke `N_Real_Problem` menggunakan puluhan kata kunci (`IF/SEARCH` versi Python).
-2.  **Pipa 2 (Pemetaan Kategori):** Membaca hasil Pipa 1 (`N_Real_Problem`) dan memetakannya ke `P_Kategori` (Kolom P).
-3.  **Pipa 3 (Logika Bisnis):** Membaca hasil Pipa 2 (`P_Kategori`) DAN data sistem (`R_Penanggung_Jawab`) untuk menentukan `Q_Responsibility` akhir.
+* **Language:** Python 3.10+
+* **Libraries:** Pandas, NumPy
+* **Environment:** Jupyter Notebook / Google Colab
+* **Dataset:** `data_atm_downtime_FINAL.csv`
+    * *Note: This is a dummy dataset containing 100 rows of "dirty" data designed to replicate real-world field reports (e.g., typos, misplaced commas, inconsistent formatting).*
 
 ---
 
-## ⚠️ Temuan Kunci & Kelemahan Fatal
+## ⚙️ The V1.0 Architecture (Rule-Based)
+This Python script mimics the original Excel workflow using a **3-Pipeline Approach**:
 
-Proyek ini **berhasil** memigrasikan logika, namun juga **membuktikan dua kelemahan fatal** dari "Mesin" V1.0:
-
-### 1. Kelemahan Logika: Ketergantungan pada Prioritas
-*Engine* ini "bodoh". Dia hanya mengikuti aturan dari atas ke bawah. Ini menyebabkan kesalahan identifikasi kritis.
-
-* **Contoh:** Teks `"open tiket ke tim jaringan"`
-* **Hasil V1.0:** Salah diklasifikasikan sebagai `"Jaringan"` (karena kata "jaringan" diperiksa lebih dulu).
-* **Hasil Seharusnya:** `"On-Progress"` (karena kata "open tiket" seharusnya lebih penting).
-
-### 2. Kelemahan Teknis: Tidak Tahan Banting (Non-Robust)
-*Engine* ini membutuhkan data yang 100% bersih. Saat dihadapkan pada data "kotor" di dunia nyata:
-
-* **Data "Koma Nyasar" & "Bergeser":** Input yang salah format (misal: "Music") atau mengandung koma nyasar (`Listrik, ruko mati`) menyebabkan data *alignment* hancur.
-* **Hasil:** *Engine* V1.0 **hancur total**. Dia **salah mengidentifikasi** data yang bersih (`Listrik ruko mati` terbaca sebagai `Restart Mesin`). Ini adalah kegagalan yang tidak bisa diterima.
+1.  **Pipeline 1 (Text Classification):**
+    * Reads raw text from `Cause` (Column M).
+    * Classifies it into `N_Real_Problem` using keyword matching (Python version of Excel's `SEARCH`).
+2.  **Pipeline 2 (Category Mapping):**
+    * Maps `N_Real_Problem` to `P_Category` (Column P).
+    * *Logic:* Equivalent to Excel's `VLOOKUP`.
+3.  **Pipeline 3 (Business Logic):**
+    * Determines the final `Q_Responsibility` based on Category AND System Owner data.
+    * *Logic:* Equivalent to Excel's `IF` + `AND`.
 
 ---
 
-## 🚀 Kesimpulan -> Jembatan ke Proyek 2
+## ⚠️ Critical Findings & Fatal Flaws (QA Analysis)
+While the migration was successful, this project exposed two **fundamental flaws** in the V1.0 Rule-Based approach. As a QA enthusiast, I identified these edge cases:
 
-Proyek 1 ini sukses membuktikan bahwa *rule-based engine* V1.0 **tidak cukup baik** (not good enough) untuk lingkungan produksi di dunia nyata. Dia rapuh, "bodoh", dan hancur oleh data kotor.
+**1. Logical Flaw: Dependency on Priority Order**
+The engine executes rules strictly from top to bottom, leading to "false positives."
+* *Input:* "Open ticket to Network Team"
+* *V1.0 Result:* Classified as **"Network Issue"** (matched keyword "Network").
+* *Expected Result:* **"On-Progress"** (should prioritize "Open ticket" action).
 
-Ini adalah justifikasi teknis sempurna mengapa kita harus beralih ke V2.0.
-
-Ini adalah "jembatan" saya menuju **Proyek 2: "Mesin Cerdas" (Multi-Output NLP Classifier)**, di mana saya akan menggunakan **Machine Learning** untuk menggantikan logika V1.0. Tujuannya adalah membangun *engine* yang:
-1.  **Dinamis:** Bisa mengerti *konteks* (mis: "open tiket" > "jaringan"), bukan prioritas.
-2.  **Tahan Banting (Robust):** Bisa *belajar* dari data "kotor", bukan hancur karenanya.
+**2. Technical Flaw: Non-Robust against "Dirty Data"**
+The engine fails when input data isn't 100% clean.
+* *Scenario:* A misplaced comma (e.g., "Electricity, shop closed") shifts the dataframe alignment.
+* *Result:* The engine crashes or misidentifies the issue entirely (e.g., reading "Shop Closed" as "Restart Machine").
+* *Conclusion:* A rule-based system is too brittle for production without heavy data cleaning.
 
 ---
 
-## 📬 Kontak
+## 🔮 Future Roadmap: Bridge to Project 2
+This project proved that **Rule-Based Engine V1.0 is not good enough** for scaling. It is brittle and lacks context awareness.
 
-Terima kasih telah meninjau proyek saya. Mari terhubung!
+This justifies the need for **Project 2: The Intelligent Engine (V2.0)**.
+I plan to build a V2.0 using **Machine Learning (NLP)** to create a classifier that is:
+* **Context-Aware:** Understands that "Open ticket" implies an action, regardless of word order.
+* **Robust:** Can handle dirty data without crashing.
 
-* **LinkedIn:** `https://www.linkedin.com/in/antonius-rildo-232b9411a/`
+---
+
+## 📬 Contact
+Thank you for reviewing my code! I am currently transitioning into Quality Assurance & Data roles.
+
+* **LinkedIn:** [Antonius Rildo](https://www.linkedin.com/in/antonius-rildo-232b9411a/)
